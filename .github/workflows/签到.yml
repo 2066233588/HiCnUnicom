@@ -73,3 +73,27 @@ jobs:
           run: |
            bash CnUnicom.sh
            
+        - name: Run 号码6
+          env:
+           haoma: ${{ secrets.HAOMA6 }}
+           mm: ${{ secrets.MM3 }}
+           appid: ${{ secrets.APPID }}
+          run: |
+           bash CnUnicom.sh
+           
+        - name: Run 号码7
+          env:
+           haoma: ${{ secrets.HAOMA7 }}
+           mm: ${{ secrets.MM3 }}
+           appid: ${{ secrets.APPID }}
+          run: |
+           bash CnUnicom.sh
+           
+        - name: Run 号码8
+          env:
+           haoma: ${{ secrets.HAOMA8 }}
+           mm: ${{ secrets.MM3 }}
+           appid: ${{ secrets.APPID }}
+          run: |
+           bash CnUnicom.sh
+           
